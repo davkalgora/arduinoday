@@ -2,6 +2,18 @@ methode 1 suivre ce site https://packagecontrol.io/installation#st2
 #######installation######
 installer l'ide arduino
 #installer sublime text
+For Sublime-Text-2:
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+
+For Sublime-Text-3:
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
 #télécharger le plugin arduino pour sublime text à l'adresse https://github.com/Robot-Will/Stino
 #décompressé le plugin télécharger
 # copier ce plugin dans le dossier pakages de sublime text dans mon cas sous ubuntu c'est le dossier /home/dakar/.config/sublime-text-3/pakages
